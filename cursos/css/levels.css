@@ -66,15 +66,20 @@ button:hover{
 }
 
 .derechos {
-	width: 90%;
+  width: 90%;
   text-align: center;
-	justify-content: center;
-	align-items:center;
-	height: auto;
-	background-color:darkslateblue;
-	margin-top: 5px;
-	display: flex;
+  justify-content: center;
+  align-items:center;
+  height: auto;
+  background-color:darkslateblue;
+  margin-top: 5px;
+  display: flex;
   padding: 10px;
+  border-radius: 25% / 100%;
+  -webkit-border-radius: 25% / 100%;
+  -moz-border-radius: 25% / 100%;
+  -ms-border-radius: 25% / 100%;
+  -o-border-radius: 25% / 100%;
 }
 
 .derechos p {
