@@ -39,11 +39,10 @@ h1, h2{
   text-align: center;
 }
 
-.navegar a{  
-  font-size: 1.8rem;
+.navegar a{    
   font-weight: bold;
   text-decoration: none;
-  margin-inline: 20px;  
+  margin-inline: 5px;  
 }
 
 .color:nth-child(1):hover {
