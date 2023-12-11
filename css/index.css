@@ -44,13 +44,15 @@ H2 {
 }
 
 .derechos {
-	width: 100% center;
+    font-size: medium;
+	width: 100% center;    
 	justify-content: center;
 	align-items:center;
-	height: 50px;
+	height: auto;
 	background-color: #8e24aa;
 	margin-top: 5px;
 	display: flex;
+    padding: 10px;
 }
 
 .derechos p {
