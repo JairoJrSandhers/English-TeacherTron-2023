@@ -40,7 +40,6 @@ h1, h2{
 }
 
 .navegar a{  
-  position: relative;
   font-size: 1.8rem;
   font-weight: bold;
   text-decoration: none;
