@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    background-color: rgb(0, 174, 255);
+}
+
+.contenedor {
+    
+    background-color: white;
+    text-align: center;
+    height: calc(110vh);
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px 30px 0px 30px;    
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'IBM Flex Serif', serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 8px 8px 8px;    
+}
+
+.contenedor-flex {
+    display: flex;
+    text-align: center;    
+    border: 1px solid black;
+    flex-direction: column;
+    padding: 0px;
+    justify-content: center; 
+    flex-grow: 1; 
+    font-size: 1.5rem;
+}
+
+.contenedor-flex:nth-child(1) {
+    background-color:red;
+}
+
+.contenedor-flex:nth-child(2) {
+    background-color: orange;
+}
+
+.contenedor-flex:nth-child(3) {
+    background-color: yellowgreen;
+}
+
+.contenedor-flex:nth-child(4) {
+    background-color: green;
+}
+
+.contenedor-flex:nth-child(5) {
+    background-color: blue;
+}
+
+.contenedor-flex:nth-child(6) {
+    background-color: indigo;
+}
+
+.contenedor-flex:nth-child(7) {
+    background-color: violet;
+}
+
+.contenedor-flex:nth-child(8) {
+    background-color: #8e24aa;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'IBM Flex Serif', serif;
+}
+
+H2 {
+    color: blue;
+}
+
+.navegar a{  
+    position: relative;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin-inline: 20px;  
+}
+
+button{
+    object-fit: cover;  
+    font-size: 1.2rem;
+    padding: 0px 10px 0px 10px;
+}
+  
+button:hover{
+    cursor: pointer;  
+}
+
+.derechos {
+	width: 100% center;
+	justify-content: center;
+	align-items:center;
+	height: 50px;
+	background-color:darkslateblue;
+	margin-top: 5px;
+	display: flex;
+}
+
+.derechos p {
+	color: white;    
+}
+
+.derechos a{
+    text-decoration: none;   
+}
+
+.derechos a:hover{
+    text-decoration: underline;   
+}
